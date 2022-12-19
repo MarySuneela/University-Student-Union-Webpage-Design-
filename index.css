@@ -1,0 +1,420 @@
+body{
+    margin:0px;
+   
+}
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+   padding:1em;
+    height: 5em;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+.navbar-wrap{
+    height:5em;
+    padding-top: 2em;
+
+}
+.features-bg{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main{
+   width:100%;
+   background-image: url("background.png");
+   background-size:cover;
+    font-family:" rift", sans-serif;
+}
+.logo{
+    height:4em;
+    width:20em;
+    
+}
+
+.nav-el{
+    height:5em;
+    margin:1em;
+    font-family: "campaign", sans-serif;
+    font-weight:400;
+  
+
+    color:brown;
+    height:100%;
+    
+  
+}
+/* .nav-el:hover{
+    color:black;
+    cursor: pointer;
+} */
+
+#header-video{
+    width:100%;
+    
+}
+.event-date{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding:1em;
+    flex-wrap: wrap;
+}
+
+i{
+    margin-right:0.1em;
+    margin-left:0.1em;
+}
+
+h1{
+    font-style: italic;
+    font-weight: bold;
+    font-size:45px;
+    color:#f90066;
+
+}
+p{
+    font-size:25px;
+}
+a{
+    padding:0.5em;
+    text-decoration: none !important;
+}
+hr{
+    
+    width:100%;
+    height:0.1em;
+}
+#activities{
+     background-color: black;
+     text-align: center;
+     padding:3em;
+}
+
+.social-media{
+    
+    text-align: center;
+}
+#gift-card{
+    background-color: black;
+    padding:2em;
+    
+    padding:2em;
+    
+}
+.gift-card-heading{
+    text-align: center;
+}
+h3{
+    color:white;
+    font-style:italic;
+}
+
+.hightlight{
+    color:#ffff00;
+    font-weight:bold;
+}
+.hightlight1{
+    text-decoration: underline;
+}
+.activities-card{
+    margin:2em;
+    
+
+}
+.img-style{
+    height: 300px;
+    width:50vw;
+}
+.img-style1{
+    height:85px;
+    
+}
+h2{
+    color:white;
+    font-size:30px;
+    font-style:italic;
+}
+li{
+    color:white;
+    margin:0.1em;
+}
+.social-media-logo{
+    height:100px
+
+}
+.toro-link-button{
+    height: 300px;
+    width:50vw;
+}
+
+.footer-img{
+    width:100%;
+}
+.footer-divider{
+    color:#ffff00;
+    width:"0.1em"
+}
+footer{
+    background-color: black;
+    padding:2em;
+    color:white;
+    
+}
+.footer-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-para{
+    font-size:18px;
+}
+.footer-card{
+    color:white;
+    width:150px;
+    font-size:18px;
+    margin:2em;
+    
+
+
+
+}
+.address-card{
+    width:150px;
+}
+.address{
+    list-style: none;
+
+}
+.list-el{
+    list-style: none;
+    font-size:15px;
+    
+}
+/* .list-el:hover{
+    color:#ffff00;
+    cursor: pointer;
+} */
+.footer-heading{
+    font-weight:bold;
+}
+.copyright{
+    font-size:12px;
+    text-align: center;
+}
+.dropdown{
+    display: inline-block;
+}
+#menu-features{
+    width:100vw;
+    display: none;
+    
+    position:absolute;
+    color:brown ;
+    background-color: whitesmoke;
+    box-shadow: 100px;
+}
+s
+
+.icon-style:hover{
+    cursor: pointer;
+}
+.visit-content{
+    display: none;
+    position:absolute;
+    z-index: 1;
+    background-color: whitesmoke;
+    
+   
+
+
+    
+}
+a{
+    color:#f90066;
+}
+.visit-content-wrapper{
+    display: flex;
+    flex-direction: column;
+   
+    box-shadow: 100px;
+}
+
+.dropdown:hover .visit-content{
+     cursor:pointer;
+     display: block;    
+     
+   
+
+}
+a:hover {
+    background-color: brown;
+    color:white;
+    cursor:pointer;
+}
+    
+.activity-content{
+    display: none;
+    position:absolute;
+    z-index: 1;
+    background-color: whitesmoke;
+   
+
+
+}
+.activity-content-wrapper{
+    display: flex;
+    flex-direction: column;
+   
+    box-shadow: 100px;
+}
+
+
+.dropdown-activities:hover .activity-content{
+     cursor:pointer;
+     display: block;    
+   
+
+     
+}
+.employee-content{
+    display: none;
+    position:absolute;
+    z-index: 1;
+    background-color: whitesmoke;
+   
+
+
+}
+.employee-content-wrapper{
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 100px;
+}
+
+.dropdown-emp:hover .employee-content{
+     cursor:pointer;
+     display: block;    
+   
+
+}
+.reserve-content{
+    display: none;
+    position:absolute;
+    z-index: 1;
+    background-color: whitesmoke;
+   
+
+
+}
+.reserve-content-wrapper{
+    display: flex;
+    flex-direction: column;
+   
+    box-shadow: 100px;
+}
+
+.dropdown-reserve:hover .reserve-content{
+     cursor: pointer;
+     display: block;    
+   
+
+}
+.bod-content{
+    display: none;
+    position:absolute;
+    z-index: 1;
+    background-color: whitesmoke;
+   
+
+
+}
+.bod-content-wrapper{
+    display: flex;
+    flex-direction: column;
+   
+    box-shadow: 100px;
+}
+
+.dropdown-bod:hover .bod-content{
+     cursor:pointer;
+     display: block;    
+   
+
+}
+@media all and (min-width:769px) {
+   
+   
+    .features-sm{
+        display:none;
+    }
+    .img-style{
+        width:200px;
+        height:200px;
+
+    }
+    .card-wrapper{
+        display:flex;
+        justify-content: space-around;
+    }
+    .toro-link-button{
+        width:300px;
+        
+    }
+    
+
+    
+}
+
+
+@media all and (width:768px){
+    
+    .features-bg{
+        display: none;
+    }
+    .logo{
+        width:40vw;
+        height:3em;
+    }
+    .features-sm{
+        display:block;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1024){
+    .nav-el{
+        font-size:10px;
+    }
+}
+@media all and (max-width:767px ){
+    .nav-el{
+        color:red;
+       }
+    .features-bg{
+        display: none;
+    }
+    .logo{
+        width:40vw;
+        height:3em;
+    }
+}
+@media all and (max-width:320px){
+  
+    .logo{
+        width:50vw;
+        height:2em;
+    }
+
+}
